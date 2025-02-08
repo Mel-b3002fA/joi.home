@@ -1,0 +1,99 @@
+*{
+    list-style: none;
+}
+.body{
+    background-color: #E6E6E6;
+    background-image: url(./img/BCD36DDE-CB55-495A-B3E5-9F3AD7B6A1BA.png);
+background-size: 700px;
+background-repeat: no-repeat;
+background-position-x: right;
+}
+
+/* font style doesnt work*/
+.sitename{
+  font-style: Roboto;
+}
+.header{
+display: flex;
+justify-content: center;
+}
+.header-wrap{
+background-color:#fcf9f9;
+display: flex;
+width: 600px;
+border-radius: 20px;
+justify-content: space-between;
+align-items: center;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.header-list1{
+    display: flex;
+gap: 30px;
+}
+
+.header-list2{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.btn1, .btn2{
+background-color: black;
+border-radius: 20px;
+padding-left: 16px;
+padding-right: 16px;
+padding-top: 10px;
+padding-bottom: 10px;
+color: white;
+max-width: 400px;
+}
+
+.landing-wrapper{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 130px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn-descr{
+    background-color: rgba(0, 0, 0, 0);
+border-radius: 20px;
+padding-left: 16px;
+padding-right: 16px;
+padding-top: 8px;
+padding-bottom: 8px;
+border-style: 1px solid black ;
+color: rgb(0, 0, 0);
+font-size: 15px;
+max-width: 200px;
+
+}
+
+.btn-site{
+    margin-top: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    font-size: 20px;
+}
+
+.landing-main{
+    font-size: 60px;
+margin: 25px;
+}
+
+.landing-para{
+    width: 1000px;
+    font-size: 20px;
+}
+
+.landing-div3{
+    display: flex;
+    justify-content: center;
+}
