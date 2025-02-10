@@ -11,7 +11,7 @@ background-position-x: right;
 
 /* font style doesnt work*/
 .sitename{
-  font-style: Roboto;
+  font-family: Roboto;
 }
 .header{
 display: flex;
@@ -24,22 +24,24 @@ width: 600px;
 border-radius: 20px;
 justify-content: space-between;
 align-items: center;
-padding-left: 30px;
-padding-right: 30px;
+padding-left: 20px;
 }
 
 .header-list1{
+    font-family: Roboto;
     display: flex;
 gap: 30px;
 }
 
 .header-list2{
+    font-family: Roboto;
     display: flex;
     gap: 10px;
     margin: 10px;
 }
 
 .btn1, .btn2{
+    font-family: Roboto;
 background-color: black;
 border-radius: 20px;
 padding-left: 16px;
@@ -52,7 +54,7 @@ max-width: 400px;
 
 .landing-wrapper{
     text-align: center;
-    margin-top: 90px;
+    margin-top: 92px;
     margin-bottom: 130px;
     display: flex;
     justify-content: center;
@@ -60,6 +62,7 @@ max-width: 400px;
 }
 
 .btn-descr{
+    font-family: Quicksand;
     background-color: rgba(0, 0, 0, 0);
 border-radius: 20px;
 padding-left: 16px;
@@ -74,7 +77,8 @@ max-width: 200px;
 }
 
 .btn-site{
-    margin-top: 70px;
+    font-family: Quicksand;
+    margin-top: 100px;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 10px;
@@ -84,13 +88,15 @@ max-width: 200px;
 }
 
 .landing-main{
-    font-size: 60px;
-margin: 25px;
+    font-family: Roboto;
+    font-size: 54px;
+margin: 10px;
 }
 
 .landing-para{
+    font-family: Quicksand;
     width: 1000px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .landing-div3{
